@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`automation engine golden master > produces stable plans for reference businesses 1`] = `
+[
+  {
+    "hoursSaved": 51,
+    "industry": "ecommerce",
+    "recs": [
+      "support-agent",
+      "doc-extraction",
+      "forecasting",
+    ],
+    "teamSize": 4,
+  },
+  {
+    "hoursSaved": 61,
+    "industry": "healthcare",
+    "recs": [
+      "booking-assistant",
+      "support-agent",
+      "doc-extraction",
+    ],
+    "teamSize": 6,
+  },
+  {
+    "hoursSaved": 95,
+    "industry": "finance",
+    "recs": [
+      "doc-extraction",
+      "support-agent",
+      "knowledge-base",
+    ],
+    "teamSize": 31,
+  },
+  {
+    "hoursSaved": 53,
+    "industry": "agency",
+    "recs": [
+      "content-engine",
+      "doc-extraction",
+      "insights",
+    ],
+    "teamSize": 8,
+  },
+  {
+    "hoursSaved": 95,
+    "industry": "tech",
+    "recs": [
+      "devops-agents",
+      "knowledge-base",
+      "support-agent",
+    ],
+    "teamSize": 30,
+  },
+  {
+    "hoursSaved": 21,
+    "industry": "general",
+    "recs": [
+      "support-agent",
+      "knowledge-base",
+      "insights",
+    ],
+    "teamSize": 1,
+  },
+]
+`;

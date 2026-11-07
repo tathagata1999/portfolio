@@ -1,0 +1,45 @@
+{
+  "baseUrl": "http://localhost:4173",
+  "users": 100,
+  "visitsPerUser": 5,
+  "rampSeconds": 5,
+  "durationSec": 8.66,
+  "totalRequests": 2000,
+  "throughputRps": 231,
+  "megabytesServed": 211,
+  "latencyMs": {
+    "min": 0.8,
+    "p50": 13,
+    "p95": 80.7,
+    "p99": 131.8,
+    "max": 208.1
+  },
+  "byAsset": {
+    "html": {
+      "count": 500,
+      "p95": 34.9
+    },
+    "svg": {
+      "count": 500,
+      "p95": 15.7
+    },
+    "css": {
+      "count": 500,
+      "p95": 42.3
+    },
+    "js": {
+      "count": 500,
+      "p95": 128.9
+    }
+  },
+  "errors": 0,
+  "errorRate": 0,
+  "chatSessions": 100,
+  "chatFailures": 0,
+  "chatAvgMs": 0.69,
+  "thresholds": {
+    "p95Ms": 500,
+    "maxErrorRatePct": 0
+  },
+  "result": "PASS"
+}
